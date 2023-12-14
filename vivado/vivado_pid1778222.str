@@ -1,0 +1,223 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:47:01 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 1778222
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Dec 11 21:08:05 CST 2023
+Time zone: 	Taipei Standard Time (Asia/Taipei)
+
+OS: Ubuntu
+OS Version: 5.15.0-88-generic
+OS Architecture: amd64
+Available processors (cores): 2
+
+Display: 0
+Screen size: 1904x958
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9
+Java executable: 	/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m, -Xrs]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ubuntu
+User home directory: /home/ubuntu
+User working directory: /home/ubuntu/course-lab_6/combine/vivado
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2022.1
+RDI_DATADIR: /tools/Xilinx/Vivado/2022.1/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2022.1/bin
+
+Vivado preferences file: /home/ubuntu/.Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: /home/ubuntu/.Xilinx/Vivado/2022.1/
+Vivado layouts directory: /home/ubuntu/.Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	/tools/Xilinx/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	/home/ubuntu/course-lab_6/combine/vivado/vivado.log
+Vivado journal file: 	/home/ubuntu/course-lab_6/combine/vivado/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-1778222-ubuntu2004
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2022.1
+XILINX_SDK: /tools/Xilinx/Vitis/2022.1
+XILINX_VITIS: /tools/Xilinx/Vitis/2022.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2022.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2022.1
+
+
+GUI allocated memory:	398 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,960 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // y
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,813 MB. GUI used memory: 58 MB. Current time: 12/11/23, 9:08:06 PM CST
+setFileChooser("/home/ubuntu/course-lab_6/combine/vivado/vvd_caravel_fpga/vvd_caravel_fpga.xpr");
+// [GUI Memory]: 68 MB (+68649kb) [00:00:14]
+// [Engine Memory]: 1,815 MB (+1751501kb) [00:00:15]
+// Opening Vivado Project: /home/ubuntu/course-lab_6/combine/vivado/vvd_caravel_fpga/vvd_caravel_fpga.xpr. Version: Vivado v2022.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 99 MB (+29519kb) [00:00:16]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 2,018 MB (+117378kb) [00:00:18]
+// [GUI Memory]: 121 MB (+16899kb) [00:00:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  3193 ms.
+// Tcl Message: open_project /home/ubuntu/course-lab_6/combine/vivado/vvd_caravel_fpga/vvd_caravel_fpga.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Project name: vvd_caravel_fpga; location: /home/ubuntu/course-lab_6/combine/vivado/vvd_caravel_fpga; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bA
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3); // az
+// HMemoryUtils.trashcanNow. Engine heap size: 2,090 MB. GUI used memory: 103 MB. Current time: 12/11/23, 9:08:21 PM CST
+// [GUI Memory]: 142 MB (+15749kb) [00:00:27]
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_read_romcode_0_0_synth_1 ; design_1_read_romcode_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:00:35 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 4, "design_1_read_romcode_0_0_synth_1", 0, false); // az
+// PAPropertyPanels.initPanels (design_1_read_romcode_0_0_synth_1) elapsed time: 0.7s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+selectTreeTableHeader(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "Constraints", 1); // az
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 2,161 MB (+45016kb) [00:00:33]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 2); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 2); // D
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Scripts Generated ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Vivado Implementation Defaults (Vivado Implementation 2020) ; Vivado Implementation Default Reports (Vivado Implementation 2020) ; xc7z020clg400-1 ;  ; Default settings for Implementation.", 1, "impl_1", 0, false); // az
+collapseTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Scripts Generated ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2020) ; Vivado Synthesis Default Reports (Vivado Synthesis 2020) ; xc7z020clg400-1 ;  ; Vivado Synthesis Defaults", 0); // az
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Scripts Generated ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2020) ; Vivado Synthesis Default Reports (Vivado Synthesis 2020) ; xc7z020clg400-1 ;  ; Vivado Synthesis Defaults", 0); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Scripts Generated ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2020) ; Vivado Synthesis Default Reports (Vivado Synthesis 2020) ; xc7z020clg400-1 ;  ; Vivado Synthesis Defaults", 0, "synth_1", 0, true, false, false, false, false, true); // az - Double Click - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3, "design_1", 0, true); // az - Node
+collapseTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3, "design_1", 0, true, false, false, false, false, true); // az - Double Click - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3, "design_1", 0, true); // az - Node
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3, "design_1", 0, true, false, false, false, false, true); // az - Double Click - Node
+// [GUI Memory]: 150 MB (+961kb) [00:01:01]
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_read_romcode_0_0_synth_1 ; design_1_read_romcode_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:00:35 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 4, "design_1_read_romcode_0_0_synth_1", 0, false); // az
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_read_romcode_0_0_synth_1 ; design_1_read_romcode_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:00:35 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 4); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_read_romcode_0_0_synth_1 ; design_1_read_romcode_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:00:35 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 4, "design_1_read_romcode_0_0_synth_1", 0, false, false, false, false, false, true); // az - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 2,080 MB. GUI used memory: 80 MB. Current time: 12/11/23, 9:09:01 PM CST
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aL
+// Elapsed time: 10 seconds
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aL
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3, "Submodule Runs Failed", 2, true); // az - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3, "Submodule Runs Failed", 2, true); // az - Node
+collapseTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3, "Submodule Runs Failed", 2, true, false, false, false, false, true); // az - Double Click - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3, "Submodule Runs Failed", 2, true); // az - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3, "Submodule Runs Failed", 2, true); // az - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3, "Submodule Runs Failed", 2, true); // az - Node
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1 ;  ; Submodule Runs Failed ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:02:18 ;  ;  ;  ;  ; ", 3, "Submodule Runs Failed", 2, true, false, false, false, false, true); // az - Double Click - Node
+// Elapsed time: 44 seconds
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aL
+selectTab((HResource) null, (HResource) null, "Log", 2); // aL
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL
+// Elapsed time: 15 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aL
+// Elapsed time: 29 seconds
+selectButton(RDIResource.PropertiesView_PREVIOUS_OBJECT, "Properties_backward"); // D
+selectButton(RDIResource.PropertiesView_NEXT_OBJECT, "Properties_forward"); // D
+selectButton(RDIResource.PropertiesView_NEXT_OBJECT, "Properties_forward"); // D
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aL
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_caravel_ps_0_0_synth_1 ; design_1_caravel_ps_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:00:10 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 5, "design_1_caravel_ps_0_0_synth_1", 0, false); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_output_pin_0_0_synth_1 ; design_1_output_pin_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:00:13 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 6, "design_1_output_pin_0_0_synth_1", 0, false); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_output_pin_0_0_synth_1 ; design_1_output_pin_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:00:13 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 6, "design_1_output_pin_0_0_synth_1", 0, false); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_caravel_0_0_synth_1 ; design_1_caravel_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:24 CST 2023 ; 00:00:09 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 7, "design_1_caravel_0_0_synth_1", 0, false); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_output_pin_0_0_synth_1 ; design_1_output_pin_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:00:13 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 6, "design_1_output_pin_0_0_synth_1", 0, false); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_output_pin_0_0_synth_1 ; design_1_output_pin_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:00:13 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 6, "design_1_output_pin_0_0_synth_1", 0, false); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_caravel_0_0_synth_1 ; design_1_caravel_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:24 CST 2023 ; 00:00:09 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 7, "design_1_caravel_0_0_synth_1", 0, false); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_caravel_ps_0_0_synth_1 ; design_1_caravel_ps_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:00:10 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 5, "design_1_caravel_ps_0_0_synth_1", 0, false); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_read_romcode_0_0_synth_1 ; design_1_read_romcode_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:00:35 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 4, "design_1_read_romcode_0_0_synth_1", 0, false); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_caravel_ps_0_0_synth_1 ; design_1_caravel_ps_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:00:10 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 5, "design_1_caravel_ps_0_0_synth_1", 0, false); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "design_1_read_romcode_0_0_synth_1 ; design_1_read_romcode_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Dec 11 21:05:14 CST 2023 ; 00:00:35 ; Vivado Synthesis Defaults (Vivado Synthesis 2022) ; Vivado Synthesis Default Reports (Vivado Synthesis 2022) ; xc7z020clg400-1 ; ubuntu2004 ; Vivado Synthesis Defaults", 4, "design_1_read_romcode_0_0_synth_1", 0, false); // az
+// HMemoryUtils.trashcanNow. Engine heap size: 2,146 MB. GUI used memory: 84 MB. Current time: 12/11/23, 9:39:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,138 MB. GUI used memory: 70 MB. Current time: 12/11/23, 10:09:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,138 MB. GUI used memory: 70 MB. Current time: 12/11/23, 10:39:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,143 MB. GUI used memory: 70 MB. Current time: 12/11/23, 11:09:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,143 MB. GUI used memory: 70 MB. Current time: 12/11/23, 11:39:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,143 MB. GUI used memory: 70 MB. Current time: 12/12/23, 12:09:03 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,143 MB. GUI used memory: 69 MB. Current time: 12/12/23, 12:39:03 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,143 MB. GUI used memory: 69 MB. Current time: 12/12/23, 1:09:03 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,143 MB. GUI used memory: 70 MB. Current time: 12/12/23, 1:39:04 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,143 MB. GUI used memory: 70 MB. Current time: 12/12/23, 2:09:04 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,143 MB. GUI used memory: 70 MB. Current time: 12/12/23, 2:39:05 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,143 MB. GUI used memory: 70 MB. Current time: 12/12/23, 3:09:05 AM CST
