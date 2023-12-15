@@ -1,37 +1,22 @@
-# WorkLoad Optimize SOC (WLOS) Baseline
+# SoC Lab6 Group 10
 
-### Simulation for matrix multiplication
+## Introduction
+
+## File arrangement
+### Design sources
+In `rtl/user` and `testbench/uart` folder
+
+
+## Simulation and Verification
+### Simulation for the four workloads (mm/qs/fir/uart)
 ```sh
-cd ~/caravel-soc_fpga-lab/lab-wlos_baseline/testbench/counter_la_mm
+cd testbench/uart
 source run_clean
 source run_sim
 ```
-
-### Simulation for FIR
+### Vivado Synthesis and Generate bitstream
 ```sh
-cd ~/caravel-soc_fpga-lab/lab-wlos_baseline/testbench/counter_la_fir
-source run_clean
-source run_sim
-```
-
-### Simulation for qsort
-```sh
-cd ~/caravel-soc_fpga-lab/lab-wlos_baseline/testbench/counter_la_qs
-source run_clean
-source run_sim
-```
-
-### Simulation for uart
-```sh
-cd ~/caravel-soc_fpga-lab/lab-wlos_baseline/testbench/uart
-source run_clean
-source run_sim
-```
-
-## Verification with Vivado
-### Synthesis and Generate bitstream
-```sh
-cd ~/caravel-soc_fpga-lab/lab-wlos_baseline/vivado
+cd vivado
 source run_vivado
 ```
 
