@@ -26,7 +26,7 @@ In Lab6, we integrate the four workloads by modify the firmware code and the tes
 * **.hex file**: testbench/uart/uart.hex https://github.com/chloewangmeow/SoC_Lab6/blob/main/testbench/uart/uart.hex
 
 ### Reports
-* **Report**: report.pdf https://github.com/chloewangmeow/SoC_Lab6/blob/main/report.pdf
+* **Report**: Report.pdf https://github.com/chloewangmeow/SoC_Lab6/blob/main/Report.pdf
 * **Implementation area report**: vivado/vvd_caravel_fpga/vvd_caravel_fpga.runs/impl_1/design_1_wrapper_utilization_placed.rpt https://github.com/chloewangmeow/SoC_Lab6/blob/main/vivado/vvd_caravel_fpga/vvd_caravel_fpga.runs/impl_1/design_1_wrapper_utilization_placed.rpt
 * **Timing report**: vivado/timing_report.log https://github.com/chloewangmeow/SoC_Lab6/blob/main/vivado/timing_report.log
 
